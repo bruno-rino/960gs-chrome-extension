@@ -1,0 +1,43 @@
+* {
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 12px;
+}
+
+body {
+	margin:0;
+	padding:10px;
+}
+.box {
+	border: solid thin #DEDEDE;
+	background-color: #EEEEEE;
+	padding: 10px;
+	border-radius: 8px;
+	margin-bottom: 4px; 
+}
+.caption {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+.rainbow {
+	padding-left: 6px;
+	height: 10px;
+}
+.rainbow .colorcell {
+	width: 8px;
+	height: 15px;
+	float: left;
+}
+
+.actionbar {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+#column_color input[type='range'], #gutter_color input[type='range'] {
+	width: 224px;
+}
+#column_opacity input[type='range'], #gutter_opacity input[type='range'] {
+	vertical-align:text-top;
+	width: 130px;
+}
